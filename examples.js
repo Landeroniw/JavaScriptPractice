@@ -48,3 +48,13 @@ function reverseString(s){
     //All in one return s.split("").reversed().join("");
     return finalString;
 }
+
+//Example 4: Even or odd
+function even_or_odd(number){
+    //Using module
+    if(number%2 === 0){
+        return 'Even';
+    }else{
+        return 'Odd';
+    }
+}
