@@ -94,3 +94,12 @@ function isDivisible(number, x, y){
     }
 }
 
+//Example 8: Make negative
+function makeNegative(number){
+    if(number < 0){
+        return number;
+    }else{
+        return number * -1;
+    }
+    // return -Math.absolute(number);
+}
