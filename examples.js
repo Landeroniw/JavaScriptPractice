@@ -70,6 +70,15 @@ function countingVowels(word){
             vowelsCount ++;
         }
     }
-
     return vowelsCount;
 }
+
+//Example 6: Secret message
+function greet(name){
+    if(name == 'Johnny'){
+        return "Hello, my love!";
+    }else{
+        return "Hello, " + name;
+    }
+}
+
