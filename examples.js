@@ -82,3 +82,15 @@ function greet(name){
     }
 }
 
+//Example 7: Divisibel by X and Y
+function isDivisible(number, x, y){
+    const result1 = n / x;
+    const result2 = n / y;
+
+    if(result1 % 1 === 0 && result2 % 1 === 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
