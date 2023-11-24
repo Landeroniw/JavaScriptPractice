@@ -58,3 +58,18 @@ function even_or_odd(number){
         return 'Odd';
     }
 }
+
+//Example 5: Counting vowels on a given string
+function countingVowels(word){
+    let vowelsCount = 0; //Change value
+    //Spliting into an array
+    const arr = vowelsCount.split("");
+    //Loop through the array to check for vowels
+    for( let i = 0; i < arr.length; i ++){
+        if(arr[i] == 'a'||'e'||'i'||'o'||'u'){
+            vowelsCount ++;
+        }
+    }
+
+    return vowelsCount;
+}
