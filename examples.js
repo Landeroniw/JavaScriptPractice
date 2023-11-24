@@ -103,3 +103,21 @@ function makeNegative(number){
     }
     // return -Math.absolute(number);
 }
+
+//Example 9: Find smallest number
+class smallestIntegerFinder{
+    findSmallestInt(arrayOfNumbers){
+        let smallestNumber;
+        //Walk trough the array
+        for( let i = 0; i < arrayOfNumbers.length; i++){
+            //Assign first number too smallest number
+            if(i == 0){
+                smallestNumber = arrayOfNumbers[i];
+            }
+            if(arrayOfNumbers[i] <= smallestNumber){
+                smallestNumber = arrayOfNumbers[i];
+            }
+        }
+        return smallestNumber;
+    }
+}
