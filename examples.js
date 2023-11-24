@@ -36,3 +36,15 @@ function getPlanetName(id){
     }
     return name;
 }
+
+//Example 3: Reverse a String
+function reverseString(s){
+    //Convert to array an reverse x = [1, 2, 3]
+    const arr = s.split("");
+    //Reverse the array 
+    const reversed = arr.reversed();
+    //Convert array to an String
+    const finalString = reversed.join("");
+    //All in one return s.split("").reversed().join("");
+    return finalString;
+}
